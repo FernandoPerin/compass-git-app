@@ -1,0 +1,189 @@
+/**************************
+***    Classes Gerais   ***
+**************************/
+
+.userNotFound, .repositoryEmpty{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+
+  .userNotFound, .repositoryEmpty{
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+}
+
+/**************************
+***      Card User      ***
+**************************/
+
+.sectionData{
+  position: relative;
+  width: 100%;
+  padding: 25px 0 50px;
+}
+
+.cardUser{
+  width: 350px;
+  margin: 0 auto 50px;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(220,220,220, 0.3);
+  text-align: center;
+  background: rgba(220,220,220, 0.3);
+}
+
+.cardUser img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #FFFFFF;
+  margin: 0 auto;
+}
+
+.cardUser h2{
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+  padding: 20px 0 5px;
+}
+
+.cardUser h3{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.linkPerfil{
+  width: 150px;
+  margin: 20px auto 0;
+  background: linear-gradient(to right, #421c90, #1e638f);
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 0;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.includesButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 0;
+}
+
+.includesButtons button{
+  width: 135px;
+  padding: 8px 0;
+  background: linear-gradient(to right, #421c90, #1e638f);
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+
+  .sectionData{
+    padding: 15px 0 25px;
+  }
+  
+  .cardUser{
+    width: 280px;
+    margin: 0 auto 25px;
+    padding: 30px 15px;
+  }
+  
+  .cardUser img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 10px solid #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  .includesButtons button{
+    width: 120px;
+    font-size: 13px;
+  }
+
+}
+
+/**************************
+***   Table Repository  ***
+**************************/
+
+.includesTable{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+table{
+  width: 100%;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+th{
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+  padding: 7px 0;
+}
+
+td{
+  width: 50%;
+  text-align: center;
+}
+
+.titleColumns{
+  color: #000000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.contentColumn{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+@media(max-width: 768px){
+
+  th{
+    font-size: 20px;
+  }
+  
+  .titleColumns{
+    font-size: 16px;
+    line-height: 23px;
+  }
+  
+  .contentColumn{
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}

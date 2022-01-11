@@ -1,0 +1,25 @@
+/**************************
+***        Header       ***
+**************************/
+
+.header{
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  background: #421c90;
+}
+
+.header img{
+  margin: 0 auto;
+}
+
+@media(max-width: 768px){
+  .header{
+    padding: 15px 0;
+  }
+  
+  .header img{
+    width: 120px;
+    height: auto;
+  }
+}

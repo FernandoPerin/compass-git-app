@@ -1,0 +1,21 @@
+/**************************
+***        Input        ***
+**************************/
+
+.label{
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.inputText{
+  width: 100%;
+  border: 1px solid #2e2e2d;
+  border-radius: 5px;
+  margin: 5px 0 0;
+  padding: 7px 5px;
+  
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}

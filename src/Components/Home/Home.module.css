@@ -1,0 +1,101 @@
+/**************************
+***         Info        ***
+**************************/
+
+.sectionInfo{
+  position: relative;
+  width: 100%;
+  padding: 50px 0 25px;
+}
+
+.contentInfo{
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contentInfo h1{
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.contentInfo p{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 25px 0 0;
+}
+
+@media(max-width: 768px){
+
+  .sectionInfo{
+    padding: 30px 0 15px;
+  }
+  
+  .contentInfo h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .contentInfo p{
+    font-size: 19px;
+    line-height: 23px;
+    padding: 15px 0 0;
+  }
+
+}
+
+/**************************
+***         Form        ***
+**************************/
+
+.sectionForm{
+  position: relative;
+  width: 100%;
+  padding: 25px 0;
+}
+
+.contentForm{
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.error{
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  padding: 5px 0 0;
+  color: red;
+}
+
+.button{
+  width: 180px;
+  margin: 20px auto 0;
+  background: linear-gradient(to right, #421c90, #1e638f);
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 6px 0;
+
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+@media(max-width: 768px){
+
+  .sectionForm{
+    padding: 15px 0;
+  }
+
+  .button{
+    width: 150px;
+    padding: 5px 0;
+  
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+}
